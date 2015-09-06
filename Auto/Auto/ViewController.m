@@ -27,7 +27,7 @@
     
     WS(ws);
     
-    UIEdgeInsets padding = UIEdgeInsetsMake(10, 10, 10, 10);
+   // UIEdgeInsets padding = UIEdgeInsetsMake(10, 10, 10, 10);
     
     [view mas_makeConstraints:^(MASConstraintMaker *make) {
        // make.edges.equalTo(self.view).with.insets(padding);

@@ -10,7 +10,6 @@
 		98DD72AE1B9C8F7E00042E78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD72AD1B9C8F7E00042E78 /* main.m */; };
 		98DD72B11B9C8F7E00042E78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD72B01B9C8F7E00042E78 /* AppDelegate.m */; };
 		98DD72B41B9C8F7E00042E78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD72B31B9C8F7E00042E78 /* ViewController.m */; };
-		98DD72B71B9C8F7E00042E78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98DD72B51B9C8F7E00042E78 /* Main.storyboard */; };
 		98DD72B91B9C8F7E00042E78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98DD72B81B9C8F7E00042E78 /* Images.xcassets */; };
 		98DD72BC1B9C8F7E00042E78 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98DD72BA1B9C8F7E00042E78 /* LaunchScreen.xib */; };
 		98DD72C81B9C8F7E00042E78 /* AutoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD72C71B9C8F7E00042E78 /* AutoTests.m */; };
@@ -49,7 +48,6 @@
 		98DD72B01B9C8F7E00042E78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		98DD72B21B9C8F7E00042E78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		98DD72B31B9C8F7E00042E78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		98DD72B61B9C8F7E00042E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98DD72B81B9C8F7E00042E78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		98DD72BB1B9C8F7E00042E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		98DD72C11B9C8F7E00042E78 /* AutoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,7 +101,6 @@
 				98DD72B01B9C8F7E00042E78 /* AppDelegate.m */,
 				98DD72B21B9C8F7E00042E78 /* ViewController.h */,
 				98DD72B31B9C8F7E00042E78 /* ViewController.m */,
-				98DD72B51B9C8F7E00042E78 /* Main.storyboard */,
 				98DD72B81B9C8F7E00042E78 /* Images.xcassets */,
 				98DD72BA1B9C8F7E00042E78 /* LaunchScreen.xib */,
 				98DD72AB1B9C8F7E00042E78 /* Supporting Files */,
@@ -249,7 +246,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98DD72B71B9C8F7E00042E78 /* Main.storyboard in Resources */,
 				98DD72BC1B9C8F7E00042E78 /* LaunchScreen.xib in Resources */,
 				98DD72B91B9C8F7E00042E78 /* Images.xcassets in Resources */,
 			);
@@ -294,14 +290,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		98DD72B51B9C8F7E00042E78 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				98DD72B61B9C8F7E00042E78 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		98DD72BA1B9C8F7E00042E78 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -403,6 +391,7 @@
 					"./../mansory/**",
 				);
 				INFOPLIST_FILE = Auto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -423,6 +412,7 @@
 					"./../mansory/**",
 				);
 				INFOPLIST_FILE = Auto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",

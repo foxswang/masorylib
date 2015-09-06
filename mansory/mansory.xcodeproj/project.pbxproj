@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		98DD72F01B9C98F100042E78 /* mansory.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 98DD72EF1B9C98F100042E78 /* mansory.h */; };
 		98DD72F81B9C98F100042E78 /* libmansory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DD72EC1B9C98F100042E78 /* libmansory.a */; };
-		98DD73141B9C9B7400042E78 /* mansory.h in Sources */ = {isa = PBXBuildFile; fileRef = 98DD72EF1B9C98F100042E78 /* mansory.h */; };
 		98DD73151B9C9B8E00042E78 /* mansory.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD72F11B9C98F100042E78 /* mansory.m */; };
 		98DD73311B9C9BD100042E78 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98DD73171B9C9BD100042E78 /* Info.plist */; };
 		98DD73321B9C9BD100042E78 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD73191B9C9BD100042E78 /* MASCompositeConstraint.m */; };
@@ -22,31 +21,15 @@
 		98DD73391B9C9BD100042E78 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD732B1B9C9BD100042E78 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		98DD733A1B9C9BD100042E78 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD732D1B9C9BD100042E78 /* View+MASAdditions.m */; };
 		98DD733B1B9C9BD100042E78 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD73301B9C9BD100042E78 /* ViewController+MASAdditions.m */; };
-		98DD733C1B9C9BE200042E78 /* MASCompositeConstraint.h in Sources */ = {isa = PBXBuildFile; fileRef = 98DD73181B9C9BD100042E78 /* MASCompositeConstraint.h */; };
-		98DD733D1B9C9BE200042E78 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD73191B9C9BD100042E78 /* MASCompositeConstraint.m */; };
-		98DD733E1B9C9BE200042E78 /* MASConstraint+Private.h in Sources */ = {isa = PBXBuildFile; fileRef = 98DD731A1B9C9BD100042E78 /* MASConstraint+Private.h */; };
-		98DD733F1B9C9BE200042E78 /* MASConstraint.h in Sources */ = {isa = PBXBuildFile; fileRef = 98DD731B1B9C9BD100042E78 /* MASConstraint.h */; };
-		98DD73401B9C9BE200042E78 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD731C1B9C9BD100042E78 /* MASConstraint.m */; };
-		98DD73411B9C9BE200042E78 /* MASConstraintMaker.h in Sources */ = {isa = PBXBuildFile; fileRef = 98DD731D1B9C9BD100042E78 /* MASConstraintMaker.h */; };
-		98DD73421B9C9BE200042E78 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD731E1B9C9BD100042E78 /* MASConstraintMaker.m */; };
-		98DD73431B9C9BE200042E78 /* MASLayoutConstraint.h in Sources */ = {isa = PBXBuildFile; fileRef = 98DD731F1B9C9BD100042E78 /* MASLayoutConstraint.h */; };
-		98DD73441B9C9BE200042E78 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD73201B9C9BD100042E78 /* MASLayoutConstraint.m */; };
-		98DD73451B9C9BE200042E78 /* Masonry.h in Sources */ = {isa = PBXBuildFile; fileRef = 98DD73211B9C9BD100042E78 /* Masonry.h */; };
-		98DD73461B9C9BE200042E78 /* MASUtilities.h in Sources */ = {isa = PBXBuildFile; fileRef = 98DD73221B9C9BD100042E78 /* MASUtilities.h */; };
-		98DD73471B9C9BE200042E78 /* MASViewAttribute.h in Sources */ = {isa = PBXBuildFile; fileRef = 98DD73231B9C9BD100042E78 /* MASViewAttribute.h */; };
-		98DD73481B9C9BE200042E78 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD73241B9C9BD100042E78 /* MASViewAttribute.m */; };
-		98DD73491B9C9BE200042E78 /* MASViewConstraint.h in Sources */ = {isa = PBXBuildFile; fileRef = 98DD73251B9C9BD100042E78 /* MASViewConstraint.h */; };
-		98DD734A1B9C9BE200042E78 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD73261B9C9BD100042E78 /* MASViewConstraint.m */; };
-		98DD734B1B9C9BE200042E78 /* NSArray+MASAdditions.h in Sources */ = {isa = PBXBuildFile; fileRef = 98DD73271B9C9BD100042E78 /* NSArray+MASAdditions.h */; };
-		98DD734C1B9C9BE200042E78 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD73281B9C9BD100042E78 /* NSArray+MASAdditions.m */; };
-		98DD734D1B9C9BE200042E78 /* NSArray+MASShorthandAdditions.h in Sources */ = {isa = PBXBuildFile; fileRef = 98DD73291B9C9BD100042E78 /* NSArray+MASShorthandAdditions.h */; };
-		98DD734E1B9C9BE200042E78 /* NSLayoutConstraint+MASDebugAdditions.h in Sources */ = {isa = PBXBuildFile; fileRef = 98DD732A1B9C9BD100042E78 /* NSLayoutConstraint+MASDebugAdditions.h */; };
-		98DD734F1B9C9BE200042E78 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD732B1B9C9BD100042E78 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		98DD73501B9C9BE200042E78 /* View+MASAdditions.h in Sources */ = {isa = PBXBuildFile; fileRef = 98DD732C1B9C9BD100042E78 /* View+MASAdditions.h */; };
-		98DD73511B9C9BE200042E78 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD732D1B9C9BD100042E78 /* View+MASAdditions.m */; };
-		98DD73521B9C9BE200042E78 /* View+MASShorthandAdditions.h in Sources */ = {isa = PBXBuildFile; fileRef = 98DD732E1B9C9BD100042E78 /* View+MASShorthandAdditions.h */; };
-		98DD73531B9C9BE200042E78 /* ViewController+MASAdditions.h in Sources */ = {isa = PBXBuildFile; fileRef = 98DD732F1B9C9BD100042E78 /* ViewController+MASAdditions.h */; };
-		98DD73541B9C9BE200042E78 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD73301B9C9BD100042E78 /* ViewController+MASAdditions.m */; };
+		98DD73581B9CAB8B00042E78 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD73191B9C9BD100042E78 /* MASCompositeConstraint.m */; };
+		98DD73591B9CAB8B00042E78 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD731C1B9C9BD100042E78 /* MASConstraint.m */; };
+		98DD735A1B9CAB8B00042E78 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD731E1B9C9BD100042E78 /* MASConstraintMaker.m */; };
+		98DD735B1B9CAB8B00042E78 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD73201B9C9BD100042E78 /* MASLayoutConstraint.m */; };
+		98DD735C1B9CAB8B00042E78 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD73241B9C9BD100042E78 /* MASViewAttribute.m */; };
+		98DD735D1B9CAB8B00042E78 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD73261B9C9BD100042E78 /* MASViewConstraint.m */; };
+		98DD735E1B9CAB8B00042E78 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD73281B9C9BD100042E78 /* NSArray+MASAdditions.m */; };
+		98DD735F1B9CAB8B00042E78 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD732D1B9C9BD100042E78 /* View+MASAdditions.m */; };
+		98DD73601B9CAB8B00042E78 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD73301B9C9BD100042E78 /* ViewController+MASAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -292,33 +275,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98DD733C1B9C9BE200042E78 /* MASCompositeConstraint.h in Sources */,
-				98DD733D1B9C9BE200042E78 /* MASCompositeConstraint.m in Sources */,
-				98DD733E1B9C9BE200042E78 /* MASConstraint+Private.h in Sources */,
-				98DD733F1B9C9BE200042E78 /* MASConstraint.h in Sources */,
-				98DD73401B9C9BE200042E78 /* MASConstraint.m in Sources */,
-				98DD73411B9C9BE200042E78 /* MASConstraintMaker.h in Sources */,
-				98DD73421B9C9BE200042E78 /* MASConstraintMaker.m in Sources */,
-				98DD73431B9C9BE200042E78 /* MASLayoutConstraint.h in Sources */,
-				98DD73441B9C9BE200042E78 /* MASLayoutConstraint.m in Sources */,
-				98DD73451B9C9BE200042E78 /* Masonry.h in Sources */,
-				98DD73461B9C9BE200042E78 /* MASUtilities.h in Sources */,
-				98DD73471B9C9BE200042E78 /* MASViewAttribute.h in Sources */,
-				98DD73481B9C9BE200042E78 /* MASViewAttribute.m in Sources */,
-				98DD73491B9C9BE200042E78 /* MASViewConstraint.h in Sources */,
-				98DD734A1B9C9BE200042E78 /* MASViewConstraint.m in Sources */,
-				98DD734B1B9C9BE200042E78 /* NSArray+MASAdditions.h in Sources */,
-				98DD734C1B9C9BE200042E78 /* NSArray+MASAdditions.m in Sources */,
-				98DD734D1B9C9BE200042E78 /* NSArray+MASShorthandAdditions.h in Sources */,
-				98DD734E1B9C9BE200042E78 /* NSLayoutConstraint+MASDebugAdditions.h in Sources */,
-				98DD734F1B9C9BE200042E78 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				98DD73501B9C9BE200042E78 /* View+MASAdditions.h in Sources */,
-				98DD73511B9C9BE200042E78 /* View+MASAdditions.m in Sources */,
-				98DD73521B9C9BE200042E78 /* View+MASShorthandAdditions.h in Sources */,
-				98DD73531B9C9BE200042E78 /* ViewController+MASAdditions.h in Sources */,
-				98DD73541B9C9BE200042E78 /* ViewController+MASAdditions.m in Sources */,
+				98DD73581B9CAB8B00042E78 /* MASCompositeConstraint.m in Sources */,
+				98DD73591B9CAB8B00042E78 /* MASConstraint.m in Sources */,
+				98DD735A1B9CAB8B00042E78 /* MASConstraintMaker.m in Sources */,
+				98DD735B1B9CAB8B00042E78 /* MASLayoutConstraint.m in Sources */,
+				98DD735C1B9CAB8B00042E78 /* MASViewAttribute.m in Sources */,
+				98DD735D1B9CAB8B00042E78 /* MASViewConstraint.m in Sources */,
+				98DD735E1B9CAB8B00042E78 /* NSArray+MASAdditions.m in Sources */,
+				98DD735F1B9CAB8B00042E78 /* View+MASAdditions.m in Sources */,
+				98DD73601B9CAB8B00042E78 /* ViewController+MASAdditions.m in Sources */,
 				98DD73151B9C9B8E00042E78 /* mansory.m in Sources */,
-				98DD73141B9C9B7400042E78 /* mansory.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
