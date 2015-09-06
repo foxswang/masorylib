@@ -11,6 +11,8 @@
 #import "mansory.h"
 #import "Masonry.h"
 
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
 @interface ViewController ()
 
 @end
@@ -20,13 +22,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     UIView *view  =  [[UIView alloc] initWithFrame:CGRectMake(10, 100, 300, 200)];
+    view.backgroundColor = [UIColor redColor];
     [self.view addSubview:view];
+    
+    WS(ws);
+    
     UIEdgeInsets padding = UIEdgeInsetsMake(10, 10, 10, 10);
-    [self.view mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self.view).with.insets(padding);
+    
+    [view mas_makeConstraints:^(MASConstraintMaker *make) {
+       // make.edges.equalTo(self.view).with.insets(padding);
+        make.center.equalTo(ws.view);
+        make.size.mas_equalTo(CGSizeMake(300, 300));
     }];
-    [mansory test];
-    view.backgroundColor = [UIColor blackColor];
+    
     
     self.view.backgroundColor = [UIColor whiteColor];
     // Do any additional setup after loading the view, typically from a nib.
